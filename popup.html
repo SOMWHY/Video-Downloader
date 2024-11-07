@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Downloader</title>
+  <style>
+    body {
+      width: 400px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .video-item {
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .video-title {
+      margin-top: 0;
+      color: #444;
+    }
+    .video-link {
+      display: block;
+      word-break: break-all;
+      margin-bottom: 5px;
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .video-link:hover {
+      text-decoration: underline;
+    }
+    .quality-select {
+      margin-bottom: 5px;
+      width: 100%;
+    }
+    .download-button {
+      width: 100%;
+      padding: 5px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+    .download-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Video Downloader</h1>
+  <div id="videoList"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
